@@ -513,6 +513,3 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 
 
 ![White Monkey RedTeaming Tools](https://raw.githubusercontent.com/byoniq/RedTeaming-Tools/main/white_monkey_hackers_compressed.jpg)
-4. Commit
-
-Done! Your README is now **fully functional and professional**.
