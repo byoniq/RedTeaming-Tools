@@ -1,10 +1,6 @@
 # RedTeaming-Tools
 This repository provides a comprehensive list of tools commonly used in red teaming operations, penetration testing, and offensive security exercises. The goal is to offer a centralized resource for security professionals looking to enhance their offensive capabilities
 
-# Red Team Tools
-
-This repository provides an extensive and continuously updated list of tools vital for red teaming operations, penetration testing, and advanced offensive security exercises. Our aim is to offer a comprehensive, categorized resource for security professionals looking to enhance their offensive capabilities.
-
 **Disclaimer**: These tools are intended exclusively for **legal and ethical security testing** on systems for which you have explicit, written authorization. Any misuse of these tools against unauthorized targets is strictly illegal, unethical, and can lead to severe legal consequences. Use responsibly.
 
 ## Table of Contents
