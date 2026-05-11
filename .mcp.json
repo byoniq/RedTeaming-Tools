@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "wordpress-aladdin": {
+      "command": "npx",
+      "args": ["-y", "@automattic/mcp-wordpress-remote"],
+      "env": {
+        "WP_API_URL": "https://www.aladdinelston.com",
+        "WP_API_USERNAME": "${ALADDIN_WP_USERNAME}",
+        "WP_API_PASSWORD": "${ALADDIN_WP_APP_PASSWORD}",
+        "OAUTH_ENABLED": "false"
+      }
+    },
+    "wordpress-sentinelsec": {
+      "command": "npx",
+      "args": ["-y", "@automattic/mcp-wordpress-remote"],
+      "env": {
+        "WP_API_URL": "https://sentinelsec.ai",
+        "WP_API_USERNAME": "${SENTINELSEC_WP_USERNAME}",
+        "WP_API_PASSWORD": "${SENTINELSEC_WP_APP_PASSWORD}",
+        "OAUTH_ENABLED": "false"
+      }
+    }
+  }
+}
