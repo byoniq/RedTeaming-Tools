@@ -190,8 +190,8 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [donut](https://github.com/TheWover/donut) | In-memory execution of scripts/EXEs. |
 | [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) | Post-exploitation framework. |
 | [Rubeus](https://github.com/GhostPack/Rubeus) | Kerberos abuse toolkit. |
-| [Empire](https://github.com/EmpireProject/Empire) | Post-exploitation agent. |
-| [Covenant](https://github.com/cobbr/Covenant) | .NET C2 framework. |
+| [Empire (BC-Security)](https://github.com/BC-SECURITY/Empire) | Post-exploitation framework — use BC-Security's actively maintained fork; original EmpireProject repo is archived. |
+| [Covenant](https://github.com/cobbr/Covenant) | .NET C2 framework. *(archived — consider Havoc or Mythic as active alternatives)* |
 | [Sliver](https://github.com/BishopFox/sliver) | Implant framework. |
 | [Nimplant](https://github.com/chvancooten/NimPlant) | Lightweight Nim implant. |
 | [Havoc](https://github.com/HavocFramework/Havoc) | Modern C2 framework. |
@@ -214,7 +214,7 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 |------|-------------|
 | [SharPersist](https://github.com/mandiant/SharPersist) | Windows persistence toolkit. |
 | [SharpStay](https://github.com/0xthirteen/SharpStay) | .NET persistence tool. |
-| [Empire Persistence](https://github.com/EmpireProject/Empire) | Persistence modules in Empire. |
+| [Empire Persistence](https://github.com/BC-SECURITY/Empire) | Persistence modules in Empire (BC-Security fork). |
 | [Backdoor Factory](https://github.com/secretsquirrel/the-backdoor-factory) | Patches executables with shellcode. |
 | [Regsvr32](https://lolbas-project.github.io/lolbas/Binaries/Regsvr32/) | DLL registration for persistence. |
 | [Bitsadmin](https://lolbas-project.github.io/lolbas/Binaries/Bitsadmin/) | BITS for scheduled tasks. |
@@ -333,9 +333,9 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [DPAPick](https://github.com/kerspoon/dpapick) | Offline DPAPI decryption toolkit. |
 | [Net-GPPPassword](https://github.com/obscuresec/Net-GPPPassword) | Retrieves GPP passwords. |
 | [kekeo](https://github.com/gentilkiwi/kekeo) | Kerberos manipulation tool. |
-| [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) | Swiss army knife for pentesting networks. |
+| [NetExec (nxc)](https://github.com/Pennyw0rth/NetExec) | Swiss army knife for network pentesting — actively maintained successor to CrackMapExec. |
 | [Impacket](https://github.com/SecureAuthCorp/impacket) | Network protocols in Python. |
-| [BloodHound](https://github.com/BloodHoundAD/BloodHound) | AD attack path visualization. |
+| [BloodHound CE](https://github.com/SpecterOps/BloodHound) | AD attack path visualization — use SpecterOps' BloodHound Community Edition; legacy BloodHoundAD repo is EOL. |
 
 *(25+ tools)*
 
@@ -376,7 +376,7 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 ## ↔️ **Lateral Movement**
 | Tool | Description |
 |------|-------------|
-| [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) | Swiss army knife for AD attacks. |
+| [NetExec (nxc)](https://github.com/Pennyw0rth/NetExec) | Swiss army knife for AD attacks — actively maintained successor to CrackMapExec. |
 | [WMIOps](https://github.com/FortyNorthSecurity/WMIOps) | Performs actions via WMI. |
 | [PowerLessShell](https://github.com/Mr-Un1k0d3r/PowerLessShell) | Executes PS via MSBuild. |
 | [PsExec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec) | Executes processes remotely. |
@@ -392,10 +392,10 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [Invoke-WMI](https://github.com/Kevin-Robertson/Invoke-TheHash) | WMI command execution. |
 | [SMBMap](https://github.com/ShawnDEvans/smbmap) | Enumerates SMB shares. |
 | [NetView](https://github.com/mubix/netview) | Enumerates domain machines. |
-| [BloodHound](https://github.com/BloodHoundAD/BloodHound) | Maps AD for lateral paths. |
+| [BloodHound CE](https://github.com/SpecterOps/BloodHound) | Maps AD for lateral paths (use SpecterOps BloodHound CE). |
 | [DeathStar](https://github.com/byt3bl33d3r/DeathStar) | Automates DA privilege gain. |
-| [Empire](https://github.com/EmpireProject/Empire) | Lateral movement modules. |
-| [Covenant](https://github.com/cobbr/Covenant) | .NET agent for lateral. |
+| [Empire (BC-Security)](https://github.com/BC-SECURITY/Empire) | Lateral movement modules (use BC-Security fork). |
+| [Covenant](https://github.com/cobbr/Covenant) | .NET agent for lateral. *(archived)* |
 | [WMIC](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmic) | Command-line WMI. |
 | [PowerShell Remoting](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/enable-psremoting) | Remote command execution. |
 | [Jenkins Script Console](https://www.jenkins.io/doc/book/managing/script-console/) | Executes Groovy scripts. |
@@ -407,7 +407,7 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 ## 📂 **Collection**
 | Tool | Description |
 |------|-------------|
-| [BloodHound](https://github.com/BloodHoundAD/BloodHound) | Active Directory visualization. |
+| [BloodHound CE](https://github.com/SpecterOps/BloodHound) | Active Directory visualization (use SpecterOps BloodHound CE). |
 | [Snaffler](https://github.com/SnaffCon/Snaffler) | Active Directory credential collector. |
 | [linWinPwn](https://github.com/lefayjey/linWinPwn) | AD enumeration and vuln checks. |
 | [SharpHound](https://github.com/BloodHoundAD/SharpHound) | Collects data for BloodHound. |
@@ -432,8 +432,8 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 ## 🎛️ **Command & Control**
 | Tool | Description |
 |------|-------------|
-| [Covenant](https://github.com/cobbr/Covenant) | .NET C2 framework with web UI. |
-| [Empire](https://github.com/EmpireProject/Empire) | PowerShell and Python agent C2. |
+| [Covenant](https://github.com/cobbr/Covenant) | .NET C2 framework. *(archived — consider Havoc or Mythic as active alternatives)* |
+| [Empire (BC-Security)](https://github.com/BC-SECURITY/Empire) | PowerShell and Python agent C2 (use BC-Security fork; original archived). |
 | [PoshC2](https://github.com/nettitude/PoshC2) | Proxy-aware C2 in PowerShell/C#. |
 | [Merlin](https://github.com/Ne0nd0g/merlin) | Cross-platform HTTP/2 C2. |
 | [Havoc](https://github.com/HavocFramework/Havoc) | Modern malleable C2 framework. |
@@ -452,7 +452,7 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [TrevorC2](https://github.com/trustedsec/trevorc2) | Client/server for tunneling. |
 | [DNSCat2](https://github.com/iagox86/dnscat2) | DNS tunneling tool. |
 | [Malleable C2](https://github.com/threatexpress/malleable-c2) | Cobalt Strike malleable profiles. |
-| [Empire DNS](https://github.com/EmpireProject/Empire) | DNS C2 in Empire. |
+| [Empire DNS](https://github.com/BC-SECURITY/Empire) | DNS C2 in Empire (BC-Security fork). |
 | [Redirect.rules](https://github.com/0xZDH/redirect.rules) | Nginx redirector for C2. |
 | [Apache2ModRewrite](https://github.com/threatexpress/domainhunter) | Apache mod_rewrite for C2. |
 | [Chameleon](https://github.com/mdsecactivebreach/Chameleon) | Customizable honeypot for C2. |
