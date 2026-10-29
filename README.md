@@ -172,8 +172,9 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [Lure](https://github.com/moloch--/Lure) | Lures for phishing campaigns. |
 | [PhishingKitHunter](https://github.com/t4d/PhishingKitHunter) | Detects phishing kits. |
 | [BlackPhish](https://github.com/iinc0gnit0/BlackPhish) | Super lightweight phishing server. |
+| [Exploit Pack](https://www.exploitpack.com/products/exploit-pack) | Commercial initial-access and exploit-development framework with target discovery, exploit selection, module execution, payload construction, remote testing, and debugging. |
 
-*(30+ tools)*
+*(31+ tools)*
 
 ---
 
