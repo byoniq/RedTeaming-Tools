@@ -456,8 +456,9 @@ A comprehensive, curated collection of **over 350** Red Team tools, techniques, 
 | [Redirect.rules](https://github.com/0xZDH/redirect.rules) | Nginx redirector for C2. |
 | [Apache2ModRewrite](https://github.com/threatexpress/domainhunter) | Apache mod_rewrite for C2. |
 | [Chameleon](https://github.com/mdsecactivebreach/Chameleon) | Customizable honeypot for C2. |
+| [Kernel Pack](https://www.exploitpack.com/products/kernel-pack) | Commercial Windows C2 with an integrated kernel agent and exploit backends for kernel-level operations. |
 
-*(25+ tools)*
+*(26+ tools)*
 
 ---
 
