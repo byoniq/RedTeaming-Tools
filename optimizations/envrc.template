@@ -1,0 +1,17 @@
+# direnv config — rename to `.envrc` in the dir you want it, then run: direnv allow
+# Requires: brew install direnv  (+ `eval "$(direnv hook zsh)"` in ~/.zshrc)
+#           1Password CLI signed in (op whoami)
+#
+# Loads the op:// references in .env.tpl into the shell env on `cd`, with no
+# rendered secrets left on disk. Values are exported only in your interactive
+# shell for this directory and unloaded when you leave it.
+
+watch_file .env.tpl
+
+if command -v op >/dev/null 2>&1; then
+  set -a
+  eval "$(op inject -i .env.tpl 2>/dev/null)"
+  set +a
+else
+  echo "direnv: 1Password CLI not found — secrets not loaded" >&2
+fi

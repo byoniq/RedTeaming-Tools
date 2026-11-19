@@ -1,0 +1,13 @@
+# Blocks secrets from being committed. Install once:  pre-commit install
+# Run on all files:  pre-commit run --all-files
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks
+  # Optional second scanner — uncomment to also run trufflehog:
+  # - repo: https://github.com/trufflesecurity/trufflehog
+  #   rev: v3.82.13
+  #   hooks:
+  #     - id: trufflehog
+  #       args: ["git", "file://.", "--since-commit", "HEAD", "--only-verified", "--fail"]
