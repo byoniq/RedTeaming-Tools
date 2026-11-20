@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y", "@playwright/mcp@0.0.84",
+        "--headless", "--isolated",
+        "--browser", "chromium",
+        "--caps", "devtools",
+        "--output-dir", "./pentest-evidence/playwright"
+      ]
+    },
+    "playwright-burp": {
+      "command": "npx",
+      "args": [
+        "-y", "@playwright/mcp@0.0.84",
+        "--isolated",
+        "--browser", "chromium",
+        "--caps", "devtools",
+        "--proxy-server", "http://127.0.0.1:8080",
+        "--ignore-https-errors",
+        "--output-dir", "./pentest-evidence/playwright-burp"
+      ]
+    }
+  }
+}
